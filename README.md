@@ -1,2 +1,39 @@
 # Homework_1
-This is a repository for the first homework cases study assignment
+
+# Case Study: Account Technologies
+
+## Overview and Origins
+Account Technologies (the "Company") is a UK based fintech company operating in the alternative finance space. Originally incorporated in 2011, Account Technologies leverages bank transactional data to provide a revolving credit alternative to the bank overdraft market. The Company was founded by Iain McKenzie, a UK based entrepreneur which previously founded successful consumer finance company MEM Consumer Finance. The Company's primary product SafetyNet Credit ("SNC") provides consumers with a revolving credit commitment of up to £1,000 which works like an overdraft on a bank account, automatically lending to the customer when their account balance drops below a certain level. By automatically providing customers with incremental liquidity when cash balances drop below a certain threshold, the product acts to prevent consumers from overdrafting their bank accounts and incurring expensive overdraft fees. It is unclear how the company is funded, however it is likely that the company would attract financing from instutional money managers attracted to the short term high yielding cash advances the company originates. 
+
+## Business Activities
+
+Conventional bank account overdrafts are among the most expensive forms of credit available to consumers as they generally carry high fees which translate into very high APR's when expressed in terms of an interest rate. Account Technologies was founded with the idea to provide a fintech alternative to expensive bank overdrafts. While fee structures vary depending on banking institution, a typical fee structure often involves a flat fee being assessed on any overdrawn amount, with the fee varying depending on how long the account is overdrawn. As an example, if a bank charged a flat fee of £10 for a week long overdraft (irrespective of the size of the overdrawn amount), then an account which is overdrawn by £10 would incur a fee which translates into ~100% *weekly* interest. A consumer which utilizes the Saftey Net Credit product woudld be able to avoid these costly fees, as SNC would automatically lend incremental cash to the consumer, preventing the account from ever being overdrawn. When additional funds are added to the consumer's account above a certain minimum threshold, the cash advanaces from SNC are automatically paid back. SNC advances generally carry interest charges of 0.8% per day, for up to 40 days. While this is still a high cost form of credit, the product offers significant savings compared to conventional overdrafts. Using the above £10 overdraft example, the maximum amount of interest a consumer utilizing SNC would pay is £3.20, a significant savings relative to the £10 in overdraft charges they would have incurred had they utilized a conventional overdraft. 
+
+The Company is able to pre-emptively provide financing to prevent overdrafts and also automatically repay advances as the SNC customers grant Account Technologies access to view every transaction in their bank account. When the bank account balance increases above a minimum "safety net level" SNC automatically sweeps cash from the account to repay the cash advance. The product is set up such that SNC will never sweep so much cash to repayment that the customer is below their "safety net level" Generally, the company will attempt a full repayment in order to minimize interest costs, however they may take a partial repayment if funds are insufficient. Additionally, all cash advanaces are repayable at any time utilizing the SNC app. With the ability to monitor every transaction in customer's bank accounts, the Company is able to utilize machine learning to enhance their underwriting algorithms. 
+
+Account Technologies has a large addressible market for their SNC product, with an estimated £2.4bn in overdraft revenue across the UK in 2017. It is estimated that as of 2017, 8.9mn Brits were charged overdraft fees that they didnt understand or know of. Overdrafts are generally either arranged unarranged, with unarranged overdrafts accounting for ~30% of all overdraft revenue. Account Technologies SNC product offers consumers a superior alternative to conventional unarranged overdrafts and as such the company is in a unique position to capture a large portion of this market due to the transparent and user friendly nature of the SNC product. 
+
+## Landscape
+
+Account Technologies is in the alternative finance domain of the fintech space. Alternative finance seeks to provide technology enabled financing solutions which surplant traditional financial institutions. Major trends in this space have been the growth of online and p2p lending. Other major alternative finance / consumer finance companies include SoFi, OnDeck and Kabbage. Account Technologies product offering is differentiated from these competitors in that the credit facility is revolving in nature, whereaas most other alternative finance firms are more traditionally know for providing term financing. 
+
+## Results
+
+Account Technologies currently has 639.1k customers. Since inception, Account Technologies has extended £2.3bn in credit to its customer base. Utilizing their live feed of customer bank account data, the company has viewed 2.1bn individual bank account transactions representing over £142.3bn of transaction value. Alternative finance companies are generally measured by KPI's including number of customers, volume of origination and performance of the underlying assets they originate. As the company is privately held, financials are not available. Similar companies are evaluated using standard financial metrics such as revenue, EBITDA, net income, and free cash flow. 
+
+## Recommendations
+
+I believe that Account Technologies' SNC product offers an extremely valuable alternative to the unauthorized overdraft market for credit, saving consumers significant money relative to overdraft fees. I would recomend that the company look to expand its product offering geographically, making the product available to consumers in countries outside of the United Kingdom. Expansion to additional jurisidictions would likely require in depth analysis of the regulatory environment in new markets. In the UK, the firm is regulated by the Financial Conduit Authority ("FCA"). They Company would likely have to tailor its product for compliance with the Consumer Finacial Protection Bureau ("CFPB") and other regulatory bodies.
+
+Beyond geographical expansion, I believe that Account Technologies has a large opportunity to leverage their bank account transactions data to offer personal finance management products to their customers. Since they are already monitoring each transaction from individuals bank account, it shoudl be relatively straightforward to develop dashboards providing the customers with insight into their spending habits and also provide tips to improve their personal finances. Such a product would also allow the company to brand itself as being invested in the financial success of their customers, beyond simplying providing short term liquidity solutions. The company could utilize machine learning to develop an understanding of consumer's spending habits and send alerts to the customer when their spending is higher than normal or otherwise atypical in a way that could cause a cash crunch for the customer ahead of their next paycheck. Predictive algorithms would be helpful in trying to prevent the need for short term borrowing in the first place. 
+
+## Sources
+
+https://www.accounttechnologies.com/#welcome
+https://www.safetynet.credit/how-safetynet-credit-works#overdraft
+https://beta.companieshouse.gov.uk/company/07336400
+https://www.theguardian.com/business/2020/jan/28/uk-banks-overdraft-rates-fca
+https://www.reuters.com/article/us-britain-banks-regulator/uk-watchdog-shakes-up-dysfunctional-bank-overdraft-market-idUSKCN1T80G2
+https://www.fca.org.uk/
+https://www.finder.com/uk/overdraft-statistics
+https://www.bbc.com/news/business-51278036
